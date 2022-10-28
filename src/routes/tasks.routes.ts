@@ -1,11 +1,12 @@
 import { Router } from 'express';
 import { createTaskController } from '../modules/tasks/useCases/createTask';
+import { listTasksController } from '../modules/tasks/useCases/listTasks';
 
 const tasksRoutes = Router();
 
 tasksRoutes
   .get('/', (request, response) => {
-    return response.json({ message: 'Get all tasks' });
+    return listTasksController.handle(request, response);
   })
   .post('/', (request, response) => {
     return createTaskController.handle(request, response);

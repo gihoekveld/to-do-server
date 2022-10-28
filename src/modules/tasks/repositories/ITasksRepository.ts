@@ -6,6 +6,7 @@ interface ICreateTaskDTO {
 
 interface ITasksRepository {
   create({ title }: ICreateTaskDTO): Task;
+  list(): Task[];
 }
 
 export { ITasksRepository, ICreateTaskDTO };

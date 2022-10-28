@@ -30,6 +30,10 @@ class TasksRepository implements ITasksRepository {
 
     return task;
   }
+
+  list(): Task[] {
+    return this.tasks;
+  }
 }
 
 export { TasksRepository };

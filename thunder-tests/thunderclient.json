@@ -36,12 +36,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-10-28T00:04:54.974Z",
-    "modified": "2022-10-28T00:43:13.869Z",
+    "modified": "2022-10-28T00:57:38.000Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"title\": \"Create Server to to-do-list\"\n}",
+      "raw": "{\n  \"title\": \"Learn Cypress\"\n}",
       "form": []
     },
     "tests": []
