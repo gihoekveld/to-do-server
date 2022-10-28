@@ -4,9 +4,6 @@ import { createTaskController } from '../modules/tasks/useCases/createTask';
 const tasksRoutes = Router();
 
 tasksRoutes
-  .get('/:id', (request, response) => {
-    return response.json({ message: 'Get task' });
-  })
   .get('/', (request, response) => {
     return response.json({ message: 'Get all tasks' });
   })
