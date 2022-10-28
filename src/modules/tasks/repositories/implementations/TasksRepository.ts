@@ -34,6 +34,12 @@ class TasksRepository implements ITasksRepository {
   list(): Task[] {
     return this.tasks;
   }
+
+  delete({ id }: { id: string; }): void {
+    const taskIndex = this.tasks.findIndex(task => task.id === id);
+
+    this.tasks.splice(taskIndex, 1);
+  }
 }
 
 export { TasksRepository };

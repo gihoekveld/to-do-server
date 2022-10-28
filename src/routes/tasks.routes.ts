@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import { createTaskController } from '../modules/tasks/useCases/createTask';
 import { listTasksController } from '../modules/tasks/useCases/listTasks';
+import { deleteTaskController } from '../modules/tasks/useCases/deleteTask';
 
 const tasksRoutes = Router();
 
@@ -15,7 +16,7 @@ tasksRoutes
     return response.json({ message: 'Update task' });
   })
   .delete('/:id', (request, response) => {
-    return response.json({ message: 'Delete task' });
+    return deleteTaskController.handle(request, response);
   });
 
 export { tasksRoutes };
