@@ -5,12 +5,8 @@
     "default": true,
     "sortNum": 10000,
     "created": "2022-10-28T00:01:04.028Z",
-    "modified": "2022-10-28T00:01:21.438Z",
-    "data": [
-      {
-        "name": "base_url",
-        "value": "http://localhost:3333"
-      }
-    ]
+    "modified": "2022-10-28T00:15:26.066Z",
+    "data": [],
+    "envFile": "../.env"
   }
 ]
