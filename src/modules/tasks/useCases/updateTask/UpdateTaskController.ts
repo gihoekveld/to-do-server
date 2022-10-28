@@ -14,7 +14,7 @@ class UpdateTaskController {
       title
     });
 
-    return response.json({ task });
+    return response.json(task);
   }
 }
 

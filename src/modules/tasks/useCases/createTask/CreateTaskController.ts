@@ -10,7 +10,7 @@ class CreateTaskController {
 
     const task = this.createTaskUseCase.execute({ title });
 
-    return response.status(201).json({ task });
+    return response.status(201).json(task);
   }
 }
 
