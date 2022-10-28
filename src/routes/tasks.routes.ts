@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { createTaskController } from '../modules/tasks/useCases/createTask';
 
 const tasksRoutes = Router();
 
@@ -10,7 +11,7 @@ tasksRoutes
     return response.json({ message: 'Get all tasks' });
   })
   .post('/', (request, response) => {
-    return response.json({ message: 'Create task' });
+    return createTaskController.handle(request, response);
   })
   .put('/:id', (request, response) => {
     return response.json({ message: 'Update task' });
