@@ -1,19 +1,5 @@
 [
   {
-    "_id": "f3118be8-cb24-4830-9fd3-2ef613e1a6f1",
-    "colId": "72d2461b-ca3e-4bfa-a7b9-c3f866fed3f1",
-    "containerId": "",
-    "name": "list by id",
-    "url": "{{BASE_URL}}/tasks/1",
-    "method": "GET",
-    "sortNum": 10000,
-    "created": "2022-10-28T00:01:58.211Z",
-    "modified": "2022-10-28T00:15:40.943Z",
-    "headers": [],
-    "params": [],
-    "tests": []
-  },
-  {
     "_id": "866d7bc3-2638-49f8-9971-8111029d82d8",
     "colId": "72d2461b-ca3e-4bfa-a7b9-c3f866fed3f1",
     "containerId": "",
@@ -36,12 +22,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-10-28T00:04:54.974Z",
-    "modified": "2022-10-28T00:57:38.000Z",
+    "modified": "2022-10-28T01:06:56.433Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"title\": \"Learn Cypress\"\n}",
+      "raw": "{\n  \"title\": \"Learn React Testing Library\"\n}",
       "form": []
     },
     "tests": []
@@ -65,11 +51,11 @@
     "colId": "72d2461b-ca3e-4bfa-a7b9-c3f866fed3f1",
     "containerId": "",
     "name": "delete a task",
-    "url": "{{BASE_URL}}/tasks/:id",
+    "url": "{{BASE_URL}}/tasks/1b9b4c66-501d-4190-98b1-3371a9fad4df",
     "method": "DELETE",
     "sortNum": 50000,
     "created": "2022-10-28T00:06:03.082Z",
-    "modified": "2022-10-28T00:15:53.703Z",
+    "modified": "2022-10-28T01:07:07.310Z",
     "headers": [],
     "params": [],
     "tests": []
