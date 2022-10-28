@@ -22,12 +22,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-10-28T00:04:54.974Z",
-    "modified": "2022-10-28T01:06:56.433Z",
+    "modified": "2022-10-28T01:19:30.395Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"title\": \"Learn React Testing Library\"\n}",
+      "raw": "{\n  \"title\": \"Create Tests to Adventure List\"\n}",
       "form": []
     },
     "tests": []
@@ -37,13 +37,18 @@
     "colId": "72d2461b-ca3e-4bfa-a7b9-c3f866fed3f1",
     "containerId": "",
     "name": "update a task",
-    "url": "{{BASE_URL}}/tasks/:id",
+    "url": "{{BASE_URL}}/tasks/30da54e1-f0c1-407f-8caa-0c31226ed28c",
     "method": "PUT",
     "sortNum": 40000,
     "created": "2022-10-28T00:05:31.877Z",
-    "modified": "2022-10-28T00:15:50.375Z",
+    "modified": "2022-10-28T01:21:17.147Z",
     "headers": [],
     "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"title\": \"Learn .md\"\n}",
+      "form": []
+    },
     "tests": []
   },
   {

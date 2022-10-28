@@ -31,6 +31,12 @@ class TasksRepository implements ITasksRepository {
     return task;
   }
 
+  findById(id: string): Task {
+    const task = this.tasks.find(task => task.id === id);
+
+    return task;
+  }
+
   list(): Task[] {
     return this.tasks;
   }
