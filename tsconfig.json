@@ -6,8 +6,7 @@
     "allowJs": true,                                   
     "outDir": "./build",                                
     "esModuleInterop": true,                            
-    "forceConsistentCasingInFileNames": true,           
-    "strict": true,                                     
+    "forceConsistentCasingInFileNames": true,                                              
     "noImplicitAny": true,                               
     "skipLibCheck": true                               
   }
