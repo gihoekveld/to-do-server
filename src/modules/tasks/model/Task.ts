@@ -4,7 +4,7 @@ type TStatus = 'to-do' | 'doing' | 'done';
 
 class Task {
   id: string;
-  created_at: Date;
+  created_at: string;
   title: string;
   status: TStatus;
 
@@ -15,4 +15,4 @@ class Task {
   }
 }
 
-export { Task };
+export { Task, TStatus };
