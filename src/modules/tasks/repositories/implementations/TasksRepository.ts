@@ -33,7 +33,7 @@ class TasksRepository implements ITasksRepository {
     return task;
   }
 
-  findById(id: string): Task {
+  findById(id: string): Task | undefined {
     const task = this.tasks.find(task => task.id === id);
 
     return task;
