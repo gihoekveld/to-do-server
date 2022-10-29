@@ -1,13 +1,15 @@
 import { Task } from "../../model/Task";
 import { ICreateTaskDTO, ITasksRepository } from "../ITasksRepository";
 
+import {tasks} from './tasks';
+
 class TasksRepository implements ITasksRepository {
   private tasks: Task[];
 
   private static INSTANCE: TasksRepository;
 
   private constructor() {
-    this.tasks = [];
+    this.tasks = tasks;
   }
 
   public static getInstance(): TasksRepository {
