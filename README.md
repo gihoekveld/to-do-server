@@ -2,23 +2,19 @@
 
 This is a simple API to manage a to do list developed with NodeJS and Express. This API will be used by the React Project [To do List](https://github.com/gihoekveld/to-do-list).
 
-## Installation
+## Technologies used ☕️ 🐍
 
-Clone the repository and install the dependencies.
+- NodeJS
+- Express
+- Typescript
 
-```bash
-git clone
-cd to-do-server
-npm install
-```
+## Features 📋
 
-## Usage
-
-To run the API, use the following command:
-
-```bash
-npm run dev
-```
+- Add a new task
+- Change task status
+- Edit a task
+- Save a task edited
+- Delete a task
 
 ## Entities
 
@@ -153,3 +149,29 @@ Task
   "message": "Task deleted" 
 }
 ```
+
+## Installation
+
+Clone the repository and install the dependencies.
+
+```bash
+git clone
+cd to-do-server
+npm install
+```
+
+## Usage
+
+To run the API, use the following command:
+
+```bash
+npm run dev
+```
+
+## Project status 🚧
+
+The project is still in development. The next steps are:
+
+- [ ] Implement tests with Jest
+- [ ] Implement a Swagger documentation
+- [ ] Implement a database
