@@ -1,6 +1,6 @@
 # To do API
 
-This is a simple API to manage a to do list developed with NodeJS and Express. This API will be used by the React Project [To do List](https://github.com/gihoekveld/to-do-list).
+This is a simple API to manage a to do list developed with NodeJS and Express. This API will be used by the React Project [To do web](https://github.com/gihoekveld/to-do-web).
 
 ## Technologies used ☕️ 🐍
 
