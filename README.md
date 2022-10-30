@@ -175,3 +175,4 @@ The project is still in development. The next steps are:
 - [ ] Implement tests with Jest
 - [ ] Implement a Swagger documentation
 - [ ] Implement a database
+- [ ] Deploy the API
